@@ -1,9 +1,25 @@
 (* ::Package:: *)
 
-(* References synchronized with the final manuscript:
-   "Indistinguibilidad parcial, multiplicidad y emergencia del mapa cl\[AAcute]sico
-    en interferencia multifot\[OAcute]nica".
-   Equations follow Appendices A--I; figures follow Figs. 1--17. *)
+(* Companion computational file for
+
+   "Partial Indistinguishability and Sector Structure in
+    Multiphoton Interference: From the Effective
+    Single-Particle Matrix to the Semiclassical Limit"
+
+   PhD Candidacy Examination, 2026
+   Stiven Orlando Melo Vargas
+
+   Mathematical derivations: Mathematical Appendices A--I
+   Repository: https://github.com/orlandomelovargas/Multiphoton-Interference-Candidacy.git
+   Release: candidacy-2026
+
+   Tested with Wolfram Mathematica 14.5 at machine precision.
+
+   The reference SU(3) numerical configurations use
+   overline(Lambda) = lambda = spec(rho).
+   This equality is specific to those configurations and is not
+   assumed in the general theoretical formulation.
+*)
 
 
 ClearAll["Global`M3*"];
